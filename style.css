@@ -1,3 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
 h1 {
     color: blue;
+}
+body {
+    background: lightblue;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+div {
+    border: 1rem solid black;
+}
+#top-left {
+    background: url(https://magazine.columbia.edu/sites/default/files/styles/wysiwyg_full_width_image/public/2022-08/Exp_tigers.jpg?itok=fmn4mIek);
+    background-size: cover;
+}
+#top-right {
+    background: url(https://wwflac.awsassets.panda.org/img/wwfjaguar_740442.jpg);
+    background-size: cover;
+}
+#bottom-left {
+    background: url(https://i.ytimg.com/vi/-KheqfpUpr0/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#bottom-right {
+    background: url(https://cdn.prod.website-files.com/655cbee32f7e5cfd123ab592/65758b7a7f832e848a4a438d_Lion-Panthera-leo.jpg);
+    background-size: cover;
+    background-position: center;
 }
