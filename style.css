@@ -6,7 +6,6 @@ html {
     font-family: Verdana;
 }
 body {
-    background: lightblue;
     margin: 0;
     height: 100vh;
     width: 100%;
@@ -17,10 +16,15 @@ body {
 div {
     border: 1rem solid black;
     padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 div p {
     font-size: 1.25rem;
     color: seashell;
+    display: none;
+    user-select: none;
 }
 #top-left {
     background: url(https://magazine.columbia.edu/sites/default/files/styles/wysiwyg_full_width_image/public/2022-08/Exp_tigers.jpg?itok=fmn4mIek);
