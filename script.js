@@ -21,40 +21,40 @@ let bottomRightToggle = 0;
 
 topLeft.addEventListener('click', function() {
     if (topLeftToggle === 0) {
-        topLeftText.style.display = 'block';
+        topLeftText.style.opacity = '100%';
         topLeftToggle += 1;
     } else {
-        topLeftText.style.display = 'none';
+        topLeftText.style.opacity = '0%';
         topLeftToggle -= 1;
     }
 });
 
 topRight.addEventListener('click', function() {
     if (topRightToggle === 0) {
-        topRightText.style.display = 'block';
+        topRightText.style.opacity = '100%';
         topRightToggle += 1;
     } else {
-        topRightText.style.display = 'none';
+        topRightText.style.opacity = '0%';
         topRightToggle -= 1;
     }
 });
 
 bottomLeft.addEventListener('click', function() {
     if (bottomLeftToggle === 0) {
-        bottomLeftText.style.display = 'block';
+        bottomLeftText.style.opacity = '100%';
         bottomLeftToggle += 1;
     } else {
-        bottomLeftText.style.display = 'none';
+        bottomLeftText.style.opacity = '0%';
         bottomLeftToggle -= 1;
     }
 });
 
 bottomRight.addEventListener('click', function() {
     if (bottomRightToggle === 0) {
-        bottomRightText.style.display = 'block';
+        bottomRightText.style.opacity = '100%';
         bottomRightToggle += 1;
     } else {
-        bottomRightText.style.display = 'none';
+        bottomRightText.style.opacity = '0%';
         bottomRightToggle -= 1;
     }
 });
