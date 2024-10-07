@@ -10,9 +10,6 @@ const bottomLeftText = bottomLeft.querySelector(`p`);
 const bottomRight = document.getElementById(`bottom-right`);
 const bottomRightText = bottomRight.querySelector(`p`);
 
-const div = document.querySelectorAll(`div`);
-
-
 let topLeftToggle = 0;
 let topRightToggle = 0;
 let bottomLeftToggle = 0;
