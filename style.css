@@ -22,7 +22,8 @@ div {
 }
 div p {
     font-size: 1.25rem;
-    text-shadow: 2px 2px black;
+    padding: 0.5rem;
+    box-shadow: inset 3rem 3rem 15rem black;
     color: seashell;
     opacity: 0%;
     user-select: none;
